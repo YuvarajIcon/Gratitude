@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadableImageCell" customModule="Gratitude" customModuleProvider="target">
+            <connections>
+                <outlet property="loadableImageView" destination="qBw-B6-8B4" id="5B2-bw-fgR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="loadableCellID" id="kKi-4q-nSd">
+            <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="VHs-le-uUe">
+                <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qBw-B6-8B4" customClass="LoadableImageView" customModule="LoadableImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="56" height="56"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56" id="rpi-WJ-iPE"/>
+                            <constraint firstAttribute="height" constant="56" id="zqN-Hl-1Sa"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qBw-B6-8B4" secondAttribute="bottom" id="Ret-Pz-Bpt"/>
+                    <constraint firstAttribute="trailing" secondItem="qBw-B6-8B4" secondAttribute="trailing" id="rPI-Je-98y"/>
+                    <constraint firstItem="qBw-B6-8B4" firstAttribute="leading" secondItem="VHs-le-uUe" secondAttribute="leading" id="tEN-Pi-Fdp"/>
+                    <constraint firstItem="qBw-B6-8B4" firstAttribute="top" secondItem="VHs-le-uUe" secondAttribute="top" id="w3Z-GL-oyp"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="58" height="58"/>
+            <point key="canvasLocation" x="-364.61538461538458" y="121.56398104265402"/>
+        </collectionViewCell>
+    </objects>
+</document>

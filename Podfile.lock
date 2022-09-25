@@ -1,0 +1,43 @@
+PODS:
+  - Downloader (0.1.2)
+  - HelpfulExtensions (0.1.4)
+  - LoadableImageView (0.1.1):
+    - Downloader
+    - HelpfulExtensions
+  - PromisesObjC (2.1.0)
+  - PromisesSwift (2.1.0):
+    - PromisesObjC (= 2.1.0)
+  - Realm (10.29.0):
+    - Realm/Headers (= 10.29.0)
+  - Realm/Headers (10.29.0)
+  - RealmSwift (10.29.0):
+    - Realm (= 10.29.0)
+
+DEPENDENCIES:
+  - LoadableImageView
+  - PromisesSwift
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/YuvarajIcon/PodSpecRepo:
+    - Downloader
+    - HelpfulExtensions
+    - LoadableImageView
+  trunk:
+    - PromisesObjC
+    - PromisesSwift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Downloader: e3f1b5e4953fbdca5be1c71cad82251e3392ed50
+  HelpfulExtensions: 8f471d014e44d54e9479cf303886a9853bb99570
+  LoadableImageView: 2b3fd8cec3d8de68907f7236f45d9c0faaa99c85
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  PromisesSwift: b39b85b2e2e2146b97f357500395117a6e5415a8
+  Realm: 5596770daeff1ad76c8eb10d5947dc10472da779
+  RealmSwift: 35d8d318b7e5a8dbc7096c2a243184e4d19abcc0
+
+PODFILE CHECKSUM: 33c0f6ee33079e70032bd1fbef80cd3fabf0e3d5
+
+COCOAPODS: 1.11.3

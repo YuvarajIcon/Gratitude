@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Variable.ttf">
+            <string>Inter-Regular_SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BackButton" customModule="Gratitude" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="QzN-2X-4X5" id="oyo-MC-LFH"/>
+                <outlet property="label" destination="ynp-Ky-yKq" id="zX8-ni-OIf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Zba-Sf-fBt">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backArrowGray" translatesAutoresizingMaskIntoConstraints="NO" id="QzN-2X-4X5">
+                    <rect key="frame" x="0.0" y="0.0" width="16" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="16" id="yZF-bz-X9m"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynp-Ky-yKq">
+                    <rect key="frame" x="32" y="0.0" width="360" height="54"/>
+                    <fontDescription key="fontDescription" name="Inter-Regular_SemiBold" family="Inter" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QzN-2X-4X5" firstAttribute="top" secondItem="Zba-Sf-fBt" secondAttribute="top" id="2xk-Id-mzf"/>
+                <constraint firstAttribute="bottom" secondItem="ynp-Ky-yKq" secondAttribute="bottom" id="A62-Wj-jBm"/>
+                <constraint firstItem="ynp-Ky-yKq" firstAttribute="top" secondItem="Zba-Sf-fBt" secondAttribute="top" id="GW9-DJ-fVq"/>
+                <constraint firstItem="ynp-Ky-yKq" firstAttribute="leading" secondItem="QzN-2X-4X5" secondAttribute="trailing" constant="16" id="Xm2-g3-VJT"/>
+                <constraint firstItem="QzN-2X-4X5" firstAttribute="leading" secondItem="Zba-Sf-fBt" secondAttribute="leading" id="YcS-WL-6QF"/>
+                <constraint firstAttribute="trailing" secondItem="ynp-Ky-yKq" secondAttribute="trailing" id="v84-Ql-Akw"/>
+                <constraint firstAttribute="bottom" secondItem="QzN-2X-4X5" secondAttribute="bottom" id="xjB-2h-9u7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-623.07692307692309" y="20.616113744075829"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backArrowGray" width="16" height="16"/>
+    </resources>
+</document>
